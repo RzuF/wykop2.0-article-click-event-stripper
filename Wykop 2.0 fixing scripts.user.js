@@ -47,7 +47,6 @@
         if(!observerLoaded) {
             observerLoaded = true;
             const contentDiv = document.querySelectorAll("section.from-pagination-microblog>div.content")[0];
-            console.log(contentDiv);
             observer.observe(contentDiv, config);
         }
     }, true);
